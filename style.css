@@ -1,0 +1,71 @@
+body{
+    background-color: #6576b4;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #094293;
+}
+
+header nav{
+    line-height: 100px;
+}
+
+header nav a{
+    display: inline-block;
+    color: #fff5ee;
+    text-decoration: none;
+    margin-left: 250px;
+    padding: 20px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all  500ms   ease;
+    transition: all 500ms ease;
+}
+
+header nav a:hover{
+    background: #18171c;
+    border-radius: 150px;
+}
+
+.box-two a{
+    line-height: 150px;
+    border: 1px solid #2e518b ;
+    padding: 10px;
+    background-color: #2e518b;
+    color: #18171c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all  500ms   ease;
+    transition: all 500ms ease;
+    border-radius: 50px;
+}
+
+.box-two a:hover{
+    background: #e51a4c;
+    border-radius: 50px;
+}
+
+.botonn{
+    line-height: 20px;
+    border: 1px solid #2e518b ;
+    padding: 5px 5px;
+    background-color: #2e518b;
+    color: #18171c;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all  500ms   ease;
+    transition: all 500ms ease;
+    border-radius: 50px;
+}
+
+.botonn:hover{
+    background: #e51a4c;
+    border-radius: 50px;
+}
